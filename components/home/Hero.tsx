@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { ArrowRightIcon } from "lucide-react";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
+import { Button } from "@/components/ui/button";
 import dynamic from 'next/dynamic';
 
 const WalletMultiButton = dynamic(
@@ -30,7 +31,9 @@ export const Hero = () => {
         Secure, automated, and decentralized on Solana.
       </p>
       <div className="inline-block">
-        <WalletMultiButton className="!bg-primary !text-primary-foreground hover:!bg-primary/90 !px-6 !py-3 !rounded-md !font-medium !text-sm transition-colors" />
+        <Button variant="dark" asChild>
+            <WalletMultiButton />
+          </Button>
       </div>
     </div>
   );

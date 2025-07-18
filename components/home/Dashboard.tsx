@@ -1,4 +1,5 @@
 import { NetworkSwitcher } from '@/components/NetworkSwitcher';
+import { Button } from "@/components/ui/button";
 import dynamic from 'next/dynamic';
 
 const WalletMultiButton = dynamic(
@@ -25,7 +26,9 @@ export const Dashboard = () => {
             </span>
             <NetworkSwitcher />
           </div>
-          <WalletMultiButton className="!bg-primary !text-primary-foreground hover:!bg-primary/90 !rounded-lg !text-sm transition-colors" />
+          <Button variant="dark" asChild>
+              <WalletMultiButton />
+            </Button>
         </div>
       </nav>
 
