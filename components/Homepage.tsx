@@ -48,12 +48,6 @@ const Homepage: FC = () => {
             <HowItWorks />
             <FAQ />
             
-            {/* Trust Indicators */}
-            <div className="pt-16 border-t border-zinc-900">
-              <div className="flex flex-wrap justify-center text-zinc-500 text-sm">
-                <a href="https://twitter.com/amritwt" className="hover:underline">@amritwt</a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
