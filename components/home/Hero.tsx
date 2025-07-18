@@ -30,7 +30,7 @@ export const Hero = () => {
         Secure, automated, and decentralized on Solana.
       </p>
       <div className="inline-block">
-        <WalletMultiButton className="!bg-white !text-black hover:!bg-zinc-200 !px-8 !py-4 !rounded-lg !font-medium !text-base transition-colors" />
+        <WalletMultiButton className="!bg-white !text-black hover:!bg-zinc-200 !px-6 !py-3 !rounded-md !font-medium !text-sm transition-colors" />
       </div>
     </div>
   );

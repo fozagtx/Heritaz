@@ -1,4 +1,5 @@
-"use client";
+// This file is deprecated. Particle background has been removed.
+export {};
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useRef, useState } from "react";
