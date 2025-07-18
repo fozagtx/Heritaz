@@ -4,6 +4,7 @@ import { FC } from 'react';
 import { useNetworkConfiguration } from '@/contexts/NetworkConfigurationProvider';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import { toast } from "sonner";
+import { Button } from "@/components/ui/button";
 
 export const NetworkSwitcher: FC = () => {
   const { networkConfiguration } = useNetworkConfiguration();
@@ -13,11 +14,8 @@ export const NetworkSwitcher: FC = () => {
   };
 
   return (
-    <button
-      className="px-4 py-2 text-sm font-medium text-white bg-zinc-900/50 rounded-lg border border-zinc-800 hover:bg-zinc-800 transition-colors"
-      onClick={handleNetworkSwitch}
-    >
+    <Button variant="secondary" size="sm" onClick={handleNetworkSwitch}>
       {networkConfiguration === WalletAdapterNetwork.Devnet ? 'Devnet' : 'Mainnet'}
-    </button>
+    </Button>
   );
-}; 
+};

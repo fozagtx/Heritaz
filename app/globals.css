@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -36,40 +32,40 @@ body {
   }
   .dark {
     /* Heritaz Brand Palette */
-    --background: 214 19% 7%;            /* Off-Black (#0F1216) */
-    --foreground: 40 54% 90%;            /* Light Gold Tint (#F5E9D0) */
-    --card: 220 47% 10%;                 /* Charcoal Panel (#1C1F26) */
-    --card-foreground: 40 54% 90%;
-    --popover: 220 47% 10%;
-    --popover-foreground: 40 54% 90%;
+    --background: 0 0% 3.9%;            /* Off-Black (#0F1216) */
+    --foreground: 0 0% 98%;            /* Light Gold Tint (#F5E9D0) */
+    --card: 0 0% 3.9%;                 /* Charcoal Panel (#1C1F26) */
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 213 64% 11%;              /* Deep Blue (#0A1A2F) */
-    --primary-foreground: 45 65% 60%;    /* Gold Accent (#D4AF37) */
+    --primary: 0 0% 98%;              /* Deep Blue (#0A1A2F) */
+    --primary-foreground: 0 0% 9%;    /* Gold Accent (#D4AF37) */
 
-    --secondary: 210 15% 30%;            /* Slate Gray (#3E4C59) */
-    --secondary-foreground: 210 36% 60%; /* Cool Steel (#627D98) */
+    --secondary: 0 0% 14.9%;            /* Slate Gray (#3E4C59) */
+    --secondary-foreground: 0 0% 98%; /* Cool Steel (#627D98) */
 
-    --muted: 210 15% 24%;
-    --muted-foreground: 210 18% 70%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
 
-    --accent: 45 65% 60%;               /* Gold Accent */
-    --accent-foreground: 214 19% 7%;
+    --accent: 0 0% 14.9%;               /* Gold Accent */
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 353 69% 49%;          /* Carmine (#D7263D) */
+    --destructive: 0 62.8% 30.6%;          /* Carmine (#D7263D) */
     --destructive-foreground: 0 0% 98%;
 
     --success: 160 72% 42%;              /* Emerald (#1EB980) */
 
-    --border: 210 15% 30%;
-    --input: 210 15% 30%;
-    --ring: 45 65% 60%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
 
     /* Charts can reuse brand colours */
-    --chart-1: 45 65% 60%;   /* Gold */
-    --chart-2: 160 72% 42%;  /* Emerald */
-    --chart-3: 210 15% 30%;  /* Slate */
-    --chart-4: 210 36% 60%;  /* Steel */
-    --chart-5: 353 69% 49%;  /* Carmine */
+    --chart-1: 220 70% 50%;   /* Gold */
+    --chart-2: 160 60% 45%;  /* Emerald */
+    --chart-3: 30 80% 55%;  /* Slate */
+    --chart-4: 280 65% 60%;  /* Steel */
+    --chart-5: 340 75% 55%;  /* Carmine */
   }
 }
 

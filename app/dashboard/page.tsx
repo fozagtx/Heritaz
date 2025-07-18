@@ -4,6 +4,7 @@ import React, { FC, useEffect, useState } from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { useRouter } from 'next/navigation';
 import dynamic from 'next/dynamic';
+import { Button } from "@/components/ui/button";
 
 const DeadManSwitch = dynamic(
   () => import('@/components/DeadManSwitch'),
@@ -45,12 +46,7 @@ const Dashboard: FC = () => {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold">Heritaz</h1>
           <div className="flex items-center space-x-4">
-            <button
-              onClick={() => router.push('/')}
-              className="text-gray-300 hover:text-white"
-            >
-              Home
-            </button>
+            <Button variant="link" onClick={() => router.push('/')}>Home</Button>
           </div>
         </div>
       </nav>
