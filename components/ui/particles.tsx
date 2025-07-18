@@ -284,4 +284,5 @@ const Particles: React.FC<ParticlesProps> = ({
   );
 };
 
-export default Particles;
+// Deprecated: particles effect removed from project.
+export {};
