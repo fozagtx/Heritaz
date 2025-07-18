@@ -17,14 +17,14 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eternalkey.xyz"),
+  metadataBase: new URL("https://heritaz.vercel.app"),
   title: "Heritaz - Decentralized Crypto Inheritance on Solana",
   description: "A decentralized dead man's switch for crypto inheritance on Solana. Secure your digital assets' future with automated, trustless transfers to designated beneficiaries.",
   keywords: ["crypto inheritance", "Solana", "dead man's switch", "digital assets", "blockchain inheritance", "crypto inheritance", "decentralized inheritance"],
   openGraph: {
     title: "Heritaz - Decentralized Crypto Inheritance on Solana",
     description: "Secure your crypto assets' future with automated, trustless inheritance on Solana. Set up a dead man's switch for your digital assets.",
-    url: "https://eternalkey.xyz",
+    url: "https://heritaz.vercel.app",
     siteName: "Heritaz",
     locale: "en_US",
     type: "website",

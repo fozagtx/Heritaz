@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: [],
     },
-    sitemap: 'https://eternalkey.xyz/sitemap.xml',
+    sitemap: 'https://heritaz.vercel.app/sitemap.xml',
   }
 }
