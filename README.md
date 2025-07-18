@@ -36,5 +36,4 @@ The core functionality is implemented in Rust using the Anchor framework:
 - `claim`: Beneficiary claims funds after deadline
 - `cancel`: Owner cancels switch and reclaims funds
 
-<p align="center">🏆 Backed by a <a href="https://x.com/amritwt/status/1856643242215034939">$3000 grant from Superteam</a></p>
-<p align="center">Built with ❤️ for the Solana community</p>
+
