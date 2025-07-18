@@ -16,7 +16,7 @@ export const Hero = () => {
           "group rounded-full border border-primary/30 bg-background text-sm text-primary transition-all ease-in hover:border-primary/50"
         )}>
           <AnimatedShinyText className="inline-flex items-center justify-center px-3 py-0.5 transition ease-out">
-            <span>✨ Join the beta</span>
+            <span>✨ Currently in beta</span>
             <ArrowRightIcon className="ml-1 size-2.5 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
           </AnimatedShinyText>
         </div>

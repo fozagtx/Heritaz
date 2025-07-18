@@ -40,7 +40,7 @@ const Homepage: FC = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <div className="min-h-screen bg-black text-white overflow-hidden">
+      <div className="min-h-screen bg-gradient-to-b from-primary/20 via-background to-background text-foreground overflow-hidden">
         <div className="relative min-h-screen flex flex-col">
           <div className="relative z-10 text-center space-y-16 p-8 max-w-6xl mx-auto">
             <Hero />
