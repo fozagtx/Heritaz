@@ -47,14 +47,3 @@ bun dev
 ```
 
 The front-end is built with Next.js 14, TypeScript, Tailwind CSS, and the Solana Wallet Adapter. The smart contract resides in the `switch/` directory and can be tested with Anchor.
-
-## Contributing
-
-Pull requests and issue reports are welcome. Please ensure that your code follows the project’s linting and formatting rules.
-
-## License
-
-MIT License
-=======
-
->>>>>>> 026a4b0b2533cff2c194e30b3830014446cee76f
