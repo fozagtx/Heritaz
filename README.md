@@ -38,7 +38,6 @@ Refer to `switch/programs/switch/src/lib.rs` for the complete specification.
 
 ## Running locally
 
-<<<<<<< HEAD
 ```bash
 git clone https://github.com/4ozan/Heritaz.git
 cd Heritaz
