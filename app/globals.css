@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@1,400&family=Inter:wght@400;500;600&display=swap');
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -71,6 +73,7 @@
     @apply border-border;
   }
   body {
+    font-family: theme('fontFamily.inter');
     @apply bg-gradient-to-b from-[#0A1A2F] via-[#1C1F26] to-black text-foreground;
   }
 }

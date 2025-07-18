@@ -117,6 +117,10 @@ const config: Config = {
   		},
   		boxShadow: {
   			glow: '0 0 20px rgba(168, 85, 247, 0.35)'
+  		},
+  		fontFamily: {
+  			instrument: ['"Instrument Serif"', 'serif'],
+  			inter: ['Inter', 'sans-serif']
   		}
   	}
   },
