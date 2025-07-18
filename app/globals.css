@@ -67,13 +67,34 @@
     --chart-4: 280 65% 60%;  /* Steel */
     --chart-5: 340 75% 55%;  /* Carmine */
   }
-}
-
-@layer base {
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-gradient-to-b from-[#0A1A2F] via-[#1C1F26] to-black text-foreground;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-sm border border-[#D4AF37]/10 rounded-lg shadow-inner;
+  }
+  .heading-glow {
+    text-shadow: 0 0 10px #D4AF37, 0 0 20px #D4AF37;
+  }
+  .animate-glow {
+    animation: glow 4s ease-in-out infinite alternate;
+  }
+  @keyframes glow {
+    from { text-shadow: 0 0 6px #D4AF37; }
+    to { text-shadow: 0 0 20px #D4AF37; }
+  }
+  .btn-pulse {
+    animation: btn-pulse 2.5s infinite;
+  }
+  @keyframes btn-pulse {
+    0% { box-shadow: 0 0 0 0 rgba(212,175,55,0.6); }
+    70% { box-shadow: 0 0 0 10px rgba(212,175,55,0); }
+    100% { box-shadow: 0 0 0 0 rgba(212,175,55,0); }
   }
 }

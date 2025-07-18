@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eternalkey.xyz/sitemap.xml 
+Sitemap: https://heritaz.vercel.app/sitemap.xml 
