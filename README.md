@@ -38,6 +38,7 @@ Refer to `switch/programs/switch/src/lib.rs` for the complete specification.
 
 ## Running locally
 
+<<<<<<< HEAD
 ```bash
 git clone https://github.com/4ozan/Heritaz.git
 cd Heritaz
@@ -54,3 +55,6 @@ Pull requests and issue reports are welcome. Please ensure that your code follow
 ## License
 
 MIT License
+=======
+
+>>>>>>> 026a4b0b2533cff2c194e30b3830014446cee76f
