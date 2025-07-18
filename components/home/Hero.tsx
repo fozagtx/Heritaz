@@ -10,7 +10,7 @@ const WalletMultiButton = dynamic(
 
 export const Hero = () => {
   return (
-    <div className="relative space-y-6 pt-24 bg-gradient-to-b from-primary/20 via-background to-background">
+    <div className="space-y-6 pt-24">
       <div className="flex flex-col items-center gap-2">
         <div className={cn(
           "group rounded-full border border-primary/30 bg-background text-sm text-primary transition-all ease-in hover:border-primary/50"
